@@ -1,0 +1,33 @@
+{
+  "name": "@t21n/solix-manager",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev  --dotenv .env.dev",    "dev-debug": "node --debug node_modules/.bin/nuxt",
+    "dist-debug": "set -a && source .env.dev && set +a &node .output/server/index.mjs",
+    "test": "vitest run",
+    "test-debug": "vitest",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@artmizu/nuxt-prometheus": "^2.4.0",
+    "async": "^3.2.5",
+    "nuxt": "^3.12.3",
+    "nuxt-icon": "^0.6.8",
+    "tailwindcss": "^3.4.4",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.13.1",
+    "@tailwindcss/typography": "^0.5.10",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.16",
+    "happy-dom": "^14.12.3",
+    "playwright-core": "^1.45.1",
+    "postcss": "^8.4.32",
+    "vitest": "^1.6.0"
+  }
+}
