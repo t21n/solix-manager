@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "clean": "npm i",
     "build": "nuxt build",
     "dev": "nuxt dev  --dotenv .env.dev",    "dev-debug": "node --debug node_modules/.bin/nuxt",
     "dist-debug": "set -a && source .env.dev && set +a &node .output/server/index.mjs",
