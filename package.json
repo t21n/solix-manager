@@ -16,7 +16,7 @@
   "dependencies": {
     "@artmizu/nuxt-prometheus": "^2.4.0",
     "async": "^3.2.5",
-    "nuxt": "^3.12.3",
+    "nuxt": "^3.16.2",
     "nuxt-icon": "^0.6.8",
     "tailwindcss": "^3.4.4",
     "vue": "latest"
